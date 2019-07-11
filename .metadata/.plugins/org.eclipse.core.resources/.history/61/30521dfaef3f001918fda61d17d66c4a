@@ -1,0 +1,39 @@
+#
+# TODO: this file needs a prod profile, default is dev
+#
+logging:
+  level:
+    org:
+      dozer: info
+    org.gs1us.gcp: info
+    org.gs1us.gcp.parser: info
+    org.gs1us.gcp.parser.KeyAlias: off
+    org.springframework: info
+    org.springframework.context.event: off
+    org.springframework.beans.factory.support.DefaultListableBeanFactory: off
+    org.springframework.beans.factory.support.DisposableBeanAdapter: off
+    org.springframework.amqp.rabbit.connection.CachingConnectionFactory: off
+    org.springframework.amqp.rabbit.listener.BlockingQueueConsumer: off
+  file: gcp-service.log
+spring:
+  jpa:
+    show-sql: false
+    properties:
+      hibernate.jdbc.batch_size: 100
+      hibernate.jdbc.lob.non_contextual_creation: true
+
+spring.jpa.properties.javax.persistence.validation.mode: none
+
+server:
+  port: ${SERVER_PORT:8080}
+  tomcat:
+    max-threads: 1000
+
+license.service.core.pool.size: 50
+license.service.max.pool.size: 100
+
+jdbc:
+  username: @jdbc.username@
+  password: @jdbc.password@
+  url: @jdbc.url@
+

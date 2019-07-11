@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="F:\GS1\gs1-spring-boot-parent"/>
+		<item value="F:\GS1\gs1-parent-pom"/>
+		<item value="F:\GS1\cloud-api"/>
+		<item value="F:\GS1\gcp-ui"/>
+		<item value="F:\GS1\gs1-portal"/>
+		<item value="F:\GS1\product-service"/>
+		<item value="F:\GS1\gcp-service"/>
+		<item value="F:\GS1\member-service"/>
+		<item value="F:\GS1\product-service\product-service-app"/>
+		<item value="F:\GS1\product-service\product-service-client"/>
+		<item value="F:\GS1\product-service\product-service-common"/>
+		<item value="F:\GS1\product-service\product-service-integration-tests"/>
+		<item value="F:\GS1\product-service\product-service-model"/>
+		<item value="F:\GS1\product-service\product-service-service"/>
+		<item value="F:\GS1\product-service\product-service-vs"/>
+	</list>
+	<section name="CleanDialogSettings">
+		<item value="500" key="DIALOG_WIDTH"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+		<item value="402" key="DIALOG_HEIGHT"/>
+		<item value="470" key="DIALOG_X_ORIGIN"/>
+		<item value="162" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+	</section>
+</section>
